@@ -1,0 +1,33 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #ffdb58;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.password{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+button{
+    height: 25px;
+    border-radius: 8px;
+    width: 50%;
+    background-color: #587cff;
+    color: white;
+    border: none;
+}
+.generate_password{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 5px;
+}
